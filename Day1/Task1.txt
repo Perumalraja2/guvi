@@ -1,0 +1,58 @@
+HTTP:
+
+*HTTP stands for hypertext transfer protocol & it is used in client-server communication and fetching resources such as HTML documents 
+*There are several stages of development of HTTP but we will focus mainly on HTTP/1.1 which was created in 1997 & the new one is HTTP/2 which was created in 2015.
+
+
+HTTP 1.1:
+
+*HTTP/1.1 transfers these in plain-text messages
+*The second one is head of line blocking in which TCP connection is blocked all other requests until the response does not receive. all the information related to the header file is repeated in every request.
+*It uses requests resource Inlining for use getting multiple pages
+*It compresses data by itself.
+
+HTTP 2:
+
+*HTTP/2 was developed over the SPDY protocol.
+*HTTP/2 works on the binary framing layer instead of textual that converts all the messages in binary format
+*It works on fully multiplexed that is one TCP connection is used for multiple requests
+*HTTP/2 uses HPACK which is used to split data from header. it compresses the header
+*It uses PUSH frame by server that collects all multiple pages 
+*Web browsers only support HTTP/2 via encrypted connections, increasing user and application security.
+
+
+Objects and its internal representation in Javascript
+
+1)Object:
+
+*key pair value
+*In JavaScript, an object is a standalone entity, with properties and type. 
+*Compare it with a cup, for example. A cup is an object, with properties. 
+*A cup has a color, a design, weight, a material it is made of, etc. 
+*The same way, JavaScript objects can have properties, which define their characteristics
+
+
+2)Creating Objects in JavaScript:
+*By object literal
+*By creating instance of Object directly (using new keyword)
+
+3)Syntax:
+  object={property1:value1,property2:value2......propertyN:valueN}
+
+Example:
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+
+4)Accessing JavaScript Objects:
+
+objectName.property
+
+or
+
+objectName[“property”]
