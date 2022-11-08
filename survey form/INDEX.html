@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey form</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+	.form-control{
+		width:600px; 
+	}
+	form{
+		margin-top:20px;
+		margin-left: 200px;
+		margin-right:  200px; 
+        border:2px solid black;
+        padding: 20px;
+
+	}
+
+
+</style>
+</head>
+<body>
+<form>
+   <label><b>Name <sup style="color: red">*</sup></b></label>
+  <div class="form-row">
+    <div class="col">
+     
+      <input type="text" class="form-control" placeholder="First name">
+      <small id="firstName" class="form-text text-muted">First</small>
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+       <small id="LastName" class="form-text text-muted">Last</small></div> </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1"><b>Email address <sup style="color:red">*</sup></b></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ </div>
+ <div><b>Your Experience <sup style="color:red">*</sup></b></div>
+ <div><i class="fa-solid fa-star" style="color:yellow"></i><i class="fa-solid fa-star" style="color:yellow"></i><i class="fa-solid fa-star" style="color:yellow"></i><i class="fa-solid fa-star" style="color:yellow"></i><i class="fa-solid fa-star" style="color:yellow"></i></div><br>
+ <div>Overall,how would you rate you experience with us?</div><br>
+ <div><b>How satisfiedare you with<sup style="color:red">*</sup></b></div>
+ </div><br>
+ <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Very Unsatisfied</th>
+      <th scope="col">Unsatisfied</th>
+      <th scope="col">Neutral</th>
+      <th scope="col">Satisfied</th>
+      <th scope="col">Very Satisfied</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Purchase</th>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+    <tr>
+      <th scope="row">Service</th>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+    </tr>
+    <tr>
+      <th scope="row">Company Overall</th>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+  </tbody>
+</table><br>
+<div><b>How likely are you to<sup style="color:red">*</sup></b></div><br>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Very Unlikely</th>
+      <th scope="col">Unlikely</th>
+      <th scope="col">Neutral</th>
+      <th scope="col">likely</th>
+      <th scope="col">Very likely</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Buy from us again</th>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+    <tr>
+      <th scope="row" style="word-wrap: break-word;">recommend our product to others</th>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+    </tr>
+    <tr>
+      <th scope="row">Company Overall</th>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td><input type="radio"></td>
+    </tr>
+  </tbody>
+</table><br>
+
+<div><b>Additional comments or suggestions<sup style="color:red">*</sup></b></b></div>
+<div class="form-group">
+  <label for="exampleFormControlTextarea3"></label>
+  <textarea class="form-control" id="exampleFormControlTextarea3"  rows="6" ></textarea>
+</div><br>
+<div><button>Submit</button></div>
+
+</form><br>
+
+
+
+
+</body>
+</html>
