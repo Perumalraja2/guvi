@@ -1,0 +1,13 @@
+#hi{
+     display: block;
+     text-align:center;
+	justify-content: center;
+	background-image: pink;
+    font-size: 150px;
+    padding: 50px;
+    margin-top:  250px;
+
+}
+.back{
+	background-color: pink;
+}
